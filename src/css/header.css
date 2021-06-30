@@ -1,0 +1,26 @@
+.container-header{
+    background-color: rgb(157, 255, 0);
+}
+img.Header-Img{
+    width: 100vw;
+    height: 100%;
+    position: relative;
+}
+h2.Header-text{
+    position: absolute;
+    top:200px;
+    left:40vw;
+    color: crimson;
+}
+@media (min-width:360px){
+    h2.Header-text{
+        top: 140px;
+        left: 25vw;
+    }
+}
+@media (min-width:996px){
+    h2.Header-text{
+        top: 200px;
+        left: 40vw;
+    }
+}

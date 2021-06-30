@@ -1,0 +1,20 @@
+.container-home{
+    width: 50vw;
+    margin: auto;
+    font-size: 18px;
+}
+div{
+    display: block;
+}
+@media (min-width:360px){
+    .container-home{
+        width: 70vw;
+        font-size: 14px;
+    }
+}
+@media (min-width:996px){
+    .container-home{
+        width: 50vw;
+        font-size: 18px;
+    }
+}
