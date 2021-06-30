@@ -20,7 +20,7 @@ function App() {
       <Router>
         <Switch>
           <Route exactpath="/">
-        {!menu ? <Menu /> : ""}
+        {!menu ? <Menu /> : "hello"}
             <header className="header">
               <NavBar
                 menu={() => {
