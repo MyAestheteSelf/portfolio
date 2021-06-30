@@ -20,7 +20,7 @@ function App() {
       <Router>
         <Switch>
           <Route exactpath="/">
-        {!menu ? <Menu /> : "hello"}
+        {!menu ? <Menu /> : ""}
             <header className="header">
               <NavBar
                 menu={() => {
@@ -30,6 +30,7 @@ function App() {
               <Header imgs={homeImg} />
             </header>
             <div className="content">
+              this is content
               <Home />
             </div>
           </Route>
